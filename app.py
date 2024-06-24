@@ -1,4 +1,9 @@
+# Update import statement
+from werkzeug.urls import url_quote_plus as url_quote
+
+# Rest of your code
 from flask import Flask, request, jsonify, render_template
+
 from datetime import date
 
 app = Flask(__name__)
